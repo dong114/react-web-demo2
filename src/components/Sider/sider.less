@@ -1,0 +1,49 @@
+
+.logo {
+    height: 32px;
+    //background: rgba(255,255,255,.2);
+    color: white;
+    font-weight: bold;
+    margin: 16px;
+    text-align:center;
+    vertical-align:bottom;
+    white-space : nowrap;
+    z-index: 0;
+
+    :global(a) {
+        color: white;
+    }
+  }
+
+  //覆盖是全局性的。为了防止对其他 Select 组件造成影响，可以包裹额外的 className 限制样式的生效范围。
+  :global {  
+    // .ant-layout {
+    //     height: 100%;    
+    //     //background: #f8f8f8;
+    // }
+    .ant-layout-sider  {
+        background:  rgb(75, 75, 75)!important
+    }
+    .ant-menu-inline{
+        background: rgb(75, 75, 75)!important
+    }
+    .ant-menu-submenu  {
+        background:rgb(75, 75, 75)!important
+    }
+    // .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    //     background: rgb(75, 75, 75)!important
+    // }
+    // .ant-menu-inline.ant-menu-sub {
+    //     box-shadow: none//0 2px 8px rgba(0, 0, 0, 0.45) none
+    // }
+    // .ant-menu-sub {
+    //     background:  rgb(75, 75, 75)!important
+    // }
+    // .ant-menu-item-selected {
+    //     background: rgb(88, 177, 212)!important;
+    // }
+}
+// .icon {
+//     width: 14px;
+//     margin-right: 10px;
+//   }

@@ -1,0 +1,1 @@
+webpackJsonp([13],{835:function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0});t.default=[{path:"info",exact:!0,comp:"forms/StepForm/Step1"},{path:"confirm",exact:!0,comp:"forms/StepForm/Step2"},{path:"result",exact:!0,comp:"forms/StepForm/Step3"}]}});
